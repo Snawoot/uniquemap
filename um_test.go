@@ -78,4 +78,12 @@ func TestSimple(t *testing.T) {
 	if handles[0] == handles[3] {
 		t.Errorf("handles[0] == handles[3]; %v != %v", handles[0].Value(), handles[3].Value())
 	}
+
+	set := make(map[Handle[map[string]any, string, any]]struct{})
+	for _, h := range handles {
+		set[h] = struct{}{}
+	}
+	if len(set) != 5 {
+		t.Errorf("len(set) != 5: %d", len(set))
+	}
 }
