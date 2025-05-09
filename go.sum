@@ -1,8 +1,4 @@
-github.com/Snawoot/maphash v0.0.0-20250508122243-aa886187614d h1:ixMJqMMhr4EEULL7D2mvRmXWNQpBMl3kDOPHugn2Oxs=
-github.com/Snawoot/maphash v0.0.0-20250508122243-aa886187614d/go.mod h1:woMCawH6Oi8C7dzdd54jWN2rkpXPegLwiWr3XZIxXDs=
-github.com/Snawoot/unicmp v0.1.0 h1:ZCQVte9Lb4gP9gA2ktQG1IeY21VVQnjfO8Ho5tPrBHw=
-github.com/Snawoot/unicmp v0.1.0/go.mod h1:gqVwjUneumJT/9Sr7lh3jnuAtgJdN6xNLs0CBah8Q8Q=
-github.com/Snawoot/unicmp v0.1.1 h1:8Wj42WR9jGPrUvVpRddQ4JrG8N5ru5PN6xKXfvoev3Q=
-github.com/Snawoot/unicmp v0.1.1/go.mod h1:gqVwjUneumJT/9Sr7lh3jnuAtgJdN6xNLs0CBah8Q8Q=
+github.com/Snawoot/unicmp v0.2.0 h1:9duXqEDn9I2UT03UE1FSO+yf7+jSxCCB0u2rQxW0o90=
+github.com/Snawoot/unicmp v0.2.0/go.mod h1:wvCA7F06xDGSLo67k75vZmg15gLntntA8aJJ6+rmNkQ=
 github.com/Snawoot/uniqueslice v0.1.1 h1:KEfv3FtAXiNEoxvcc79pFQDhnqwYXQyZIkxOM4e/qpw=
 github.com/Snawoot/uniqueslice v0.1.1/go.mod h1:K9zIaHO43FGLHbqm6WCDFeY6+CN/du5eiio/vxvDVC8=

@@ -22,8 +22,7 @@ func Make[Map ~map[K]V, K, V comparable](m Map) Handle[Map, K, V] {
 		pairs[idx] = pair[K, V]{k, v}
 		idx++
 	}
-	o := unicmp.ForType[pair[K, V]]()
-	slices.SortFunc(pairs, o.Cmp)
+	slices.SortFunc(pairs, unicmp.Cmp)
 	return Handle[Map, K, V]{uniqueslice.Make[[]pair[K, V], pair[K, V]](pairs)}
 }
 
